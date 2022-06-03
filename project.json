@@ -1,0 +1,139 @@
+{
+  "name": "Tx_HyperAutomation_TestCase",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "DesktopApplication_Library": "[1.0.6]",
+    "EriBank_Android_Library": "[1.0.8]",
+    "EriBank_IOS_Library": "[1.0.7]",
+    "JSONPlaceholder_API_Library": "[1.0.6]",
+    "ReporterForUiPath.Activities": "[2.0.0]",
+    "Seq.App.Jira.Issue": "[1.0.8]",
+    "UiPath.Database.Activities": "[1.5.0]",
+    "UiPath.Excel.Activities": "[2.12.0-preview]",
+    "UiPath.Jira.Activities": "[2.3.1-preview]",
+    "UiPath.Jira.IntegrationService.Activities": "[3.0.0]",
+    "UiPath.MobileAutomation.Activities": "[21.10.2]",
+    "UiPath.System.Activities": "[21.10.4]",
+    "UiPath.Testing.Activities": "[1.4.5]",
+    "UiPath.UIAutomation.Activities": "[21.10.5]",
+    "UiPathTeam.DatatableConverter.Activities": "[1.0.1]",
+    "UiPathTeam.JiraGet.Activities": "[1.0.0.116]",
+    "WebApplication_Library": "[1.0.9]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.4.0",
+  "projectVersion": "1.0.2",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        "Utilities/Connectors/JSONScenario.xaml",
+        "Utilities/Connectors/ExcelScenario.xaml"
+      ]
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1b0a9725-578a-4c4e-b822-1d5b997c7361",
+        "testCaseType": "TestCase",
+        "fileName": "Main.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6ba918df-6caa-4622-ad12-1ac7c96a818c",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Desktop Application\\OrderFromApplication_TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "31731e66-6b3a-4d5f-95af-873511428416",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\EriBank Mobile Application\\EriBank Android Application\\Android_LoginLogout Test Case.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a2127d7c-b7f6-46e3-8c5f-26bb1e86f9a6",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\EriBank Mobile Application\\EriBank Android Application\\Android_MultipleScreen Test Case.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "17d49838-7b5b-440f-9251-6ec0451ffeb4",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\EriBank Mobile Application\\EriBank IOS Application\\iOS_Invalid Test Case.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "daa9beeb-1ce0-4a47-909c-764149d45568",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\EriBank Mobile Application\\EriBank IOS Application\\IOS_LoginLogout Test Case.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e7640e4b-b2cf-46b8-9e08-ef9da45e867a",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\EriBank Mobile Application\\EriBank IOS Application\\IOS_MultipleScreen Test Case.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0bad4208-14a4-45a9-97b0-242647e25985",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\JsonPlaceholder API Tests\\ApiFail_TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "27cec101-46e2-4f80-8790-eb7ab6bebfdf",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\JsonPlaceholder API Tests\\ApiPass_TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "914338a6-0600-4c45-8648-bd08ed26b734",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Web Application\\Amazon Web Application\\Amazon_AddtoCart Test Case.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b750c881-9058-4a4b-8a4d-ab3a9f695bfb",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Web Application\\Amazon Web Application\\Amazon_Invalid Test Case.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f300cb4e-3486-44ba-8b49-3c7dca2eda3d",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Web Application\\SAP Shopping Cart Application\\SAP_AddtoCart Test Case.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "CSharp",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
