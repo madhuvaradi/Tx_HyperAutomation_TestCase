@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="ApiTest___Fail" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="883.333333333333,492.666666666667" sap2010:WorkflowViewState.IdRef="ApiTest___Fail_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:jj="clr-namespace:JSONPlaceholder_API_Library.JSONPlaceholder_ApiTests;assembly=JSONPlaceholder_API_Library" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="ApiTest___Fail" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="654,653" sap2010:WorkflowViewState.IdRef="ApiTest___Fail_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:jj="clr-namespace:JSONPlaceholder_API_Library.JSONPlaceholder_ApiTests;assembly=JSONPlaceholder_API_Library" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="44">
       <x:String>System.Activities</x:String>
@@ -81,16 +81,17 @@
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>System.Memory.Data</AssemblyReference>
       <AssemblyReference>JSONPlaceholder_API_Library</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="376,268" sap2010:WorkflowViewState.IdRef="Sequence_7">
+  <Sequence sap:VirtualizedContainerService.HintSize="478,588" sap2010:WorkflowViewState.IdRef="Sequence_7">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <jj:ApiTest_Fail sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="ApiTest_Fail_1" />
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,114" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Utilities\\Connectors\\JiraUtil.xaml">
+    <jj:ApiTest_Fail sap:VirtualizedContainerService.HintSize="436,22" sap2010:WorkflowViewState.IdRef="ApiTest_Fail_1" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil2 workflow" sap:VirtualizedContainerService.HintSize="436,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="JiraUtil2.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="x:String" x:Key="Description">
           <Literal x:TypeArguments="x:String">Response code recieved - 404</Literal>
@@ -99,9 +100,35 @@
         <InArgument x:TypeArguments="x:String" x:Key="Summary">
           <Literal x:TypeArguments="x:String">JsonPlaceHolder API test fail</Literal>
         </InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="Issue_Type" />
+        <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+          <Literal x:TypeArguments="x:String">Bug</Literal>
+        </InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="436,282" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,204" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Utilities\\Connectors\\JiraUtil.xaml">
+            <ui:InvokeWorkflowFile.Arguments>
+              <InArgument x:TypeArguments="x:String" x:Key="Description">
+                <Literal x:TypeArguments="x:String">Response code recieved - 404</Literal>
+              </InArgument>
+              <InArgument x:TypeArguments="x:String" x:Key="Project_Key" />
+              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                <Literal x:TypeArguments="x:String">JsonPlaceHolder API test fail</Literal>
+              </InArgument>
+              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type" />
+              <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
+            </ui:InvokeWorkflowFile.Arguments>
+          </ui:InvokeWorkflowFile>
+        </Sequence>
+      </ui:CommentOut.Body>
+    </ui:CommentOut>
   </Sequence>
 </Activity>

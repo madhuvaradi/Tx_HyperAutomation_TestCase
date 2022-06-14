@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>759.2,610.4</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>654,525</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Email_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -63,7 +63,7 @@
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Email" sap:VirtualizedContainerService.HintSize="375.2,178.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence DisplayName="Email" sap:VirtualizedContainerService.HintSize="376,176" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="Email_Send" />
     </Sequence.Variables>
@@ -72,6 +72,6 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ra:SendEmailStatus BCC="{x:Null}" CC="{x:Null}" ContinueOnError="{x:Null}" AttachCurrentReport="True" DisplayName="Send Email Status (SMTP)" From="testingtx2020@gmail.com" sap:VirtualizedContainerService.HintSize="333.6,85.6" sap2010:WorkflowViewState.IdRef="SendEmailStatus_1" IsEmailSent="[Email_Send]" Password="Testing@123" Port="587" Server="smtp.gmail.com" Subject="Testing" To="testing21txuipath@gmail.com" />
+    <ra:SendEmailStatus BCC="{x:Null}" CC="{x:Null}" ContinueOnError="{x:Null}" AttachCurrentReport="True" DisplayName="Send Email Status (SMTP)" From="madhuvaradi003@gmail.com" sap:VirtualizedContainerService.HintSize="334,84" sap2010:WorkflowViewState.IdRef="SendEmailStatus_1" IsEmailSent="[Email_Send]" Password="varadi@6300" Port="587" Server="smtp.gmail.com" Subject="Testing" To="madhu.varadi@testingxperts.com" />
   </Sequence>
 </Activity>
