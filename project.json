@@ -4,10 +4,10 @@
   "main": "Main.xaml",
   "dependencies": {
     "CommonLibrary": "[1.0.7]",
-    "DesktopApplication_Library": "[1.0.6]",
+    "DesktopApplication_Library": "[1.0.7]",
     "DevOps-Azure.Activities": "[1.0.3]",
-    "EriBank_Android_Library": "[1.0.9]",
-    "EriBank_IOS_Library": "[1.0.10]",
+    "EriBank_Android_Library": "[1.0.10]",
+    "EriBank_IOS_Library": "[1.0.11]",
     "JSONPlaceholder_API_Library": "[1.0.6]",
     "ReporterForUiPath.Activities": "[2.0.0]",
     "Seq.App.Jira.Issue": "[1.0.8]",
@@ -21,13 +21,13 @@
     "UiPath.UIAutomation.Activities": "[22.4.5]",
     "UiPathTeam.DatatableConverter.Activities": "[1.0.1]",
     "UiPathTeam.JiraGet.Activities": "[1.0.0.116]",
-    "WebApplication_Library": "[1.0.9]"
+    "WebApplication_Library": "[1.0.11]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.10.4.0",
-  "projectVersion": "2.0.1",
+  "projectVersion": "2.0.6",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,

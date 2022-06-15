@@ -9,7 +9,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>684,1716</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>654,1716</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>JiraUtil_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="38">
@@ -96,6 +96,7 @@
       <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.Jira</AssemblyReference>
       <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
@@ -112,7 +113,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uj:JiraGet_Application_Scope ClientID="{x:Null}" ClientIDProd="{x:Null}" ClientSecret="{x:Null}" ClientSecretProd="{x:Null}" ExistingAuth="{x:Null}" ExistingService="{x:Null}" Password="{x:Null}" PasswordProd="{x:Null}" RefreshToken="{x:Null}" RefreshTokenProd="{x:Null}" ResponseAuth="{x:Null}" ResponseService="{x:Null}" TokenAPIProd="{x:Null}" UserNameProd="{x:Null}" ValidConnection="{x:Null}" Connection_Status="Close_at_scope_end" DisplayName="JiraGet Application Scope" EndPoint="https://madhuvaradi.atlassian.net/" EnvironmentType="Design_and_Test" sap:VirtualizedContainerService.HintSize="510,1559" sap2010:WorkflowViewState.IdRef="JiraGet_Application_Scope_1" InvalidCommand="No" TokenAPI="iVrs9O7tEeYAlAQazNNk217F" UserName="madhuvaradi003@gmail.com">
+    <uj:JiraGet_Application_Scope ClientID="{x:Null}" ClientIDProd="{x:Null}" ClientSecret="{x:Null}" ClientSecretProd="{x:Null}" ExistingAuth="{x:Null}" ExistingService="{x:Null}" Password="{x:Null}" PasswordProd="{x:Null}" RefreshToken="{x:Null}" RefreshTokenProd="{x:Null}" ResponseAuth="{x:Null}" ResponseService="{x:Null}" TokenAPIProd="{x:Null}" UserNameProd="{x:Null}" ValidConnection="{x:Null}" Connection_Status="Close_at_scope_end" DisplayName="JiraGet Application Scope" EndPoint="https://madhuvaradi.atlassian.net/" EnvironmentType="Design_and_Test" sap:VirtualizedContainerService.HintSize="510,1559" sap2010:WorkflowViewState.IdRef="JiraGet_Application_Scope_1" InvalidCommand="No" TokenAPI="BdkvxcMy6C5hO5azczav2652" UserName="madhuvaradi003@gmail.com">
       <uj:JiraGet_Application_Scope.Body>
         <ActivityAction x:TypeArguments="uj:JiraGetProperty">
           <ActivityAction.Argument>
@@ -125,7 +126,7 @@
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uja:JiraScope ClientID="{x:Null}" ClientSecret="{x:Null}" Connection="{x:Null}" ContinueOnError="{x:Null}" JiraConnection="{x:Null}" ApiToken="[(new System.Net.NetworkCredential(&quot;&quot;, &quot;iVrs9O7tEeYAlAQazNNk217F&quot;)).SecurePassword]" AuthenticationType="Api Token" DisplayName="Jira Scope" sap:VirtualizedContainerService.HintSize="434,1357" sap2010:WorkflowViewState.IdRef="JiraScope_2" ServerURL="https://madhuvaradi.atlassian.net/" UserName="madhuvaradi003@gmail.com">
+            <uja:JiraScope ClientID="{x:Null}" ClientSecret="{x:Null}" Connection="{x:Null}" ContinueOnError="{x:Null}" JiraConnection="{x:Null}" ApiToken="[(new System.Net.NetworkCredential(&quot;&quot;, &quot;BdkvxcMy6C5hO5azczav2652&quot;)).SecurePassword]" AuthenticationType="Api Token" DisplayName="Jira Scope" sap:VirtualizedContainerService.HintSize="434,1357" sap2010:WorkflowViewState.IdRef="JiraScope_2" ServerURL="https://madhuvaradi.atlassian.net/" UserName="madhuvaradi003@gmail.com">
               <uja:JiraScope.Body>
                 <ActivityAction x:TypeArguments="usa:IObjectContainer">
                   <ActivityAction.Argument>
